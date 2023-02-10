@@ -15,7 +15,7 @@ C:/Users/kkubik2/Downloads/Tutorial-Kart Controller-Sample/Tutorial-Kart Control
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-56084
+57798
 Successfully changed project path to: C:/Users/kkubik2/Downloads/Tutorial-Kart Controller-Sample/Tutorial-Kart Controller
 C:/Users/kkubik2/Downloads/Tutorial-Kart Controller-Sample/Tutorial-Kart Controller
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/kkubik2/Downloads/Tutorial-Kart Controller-Sample/Tutorial-Kart Control
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 102.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 98.17 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -63,96 +63,96 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011339 seconds.
+Registered in 0.009018 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 67.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.85 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
+- Completed reload, in  0.808 seconds
 Domain Reload Profiling:
-	ReloadAssembly (792ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (544ms)
-			LoadAssemblies (95ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (309ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (369ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (60ms)
+				InitializePlatformSupportModulesInManaged (101ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (113ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010715 seconds.
+Registered in 0.010438 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.319 seconds
+- Completed reload, in  1.271 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1320ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1272ms)
+		BeginReloadAssembly (199ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (995ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (904ms)
+			LoadAssemblies (176ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
+			SetupTypeCache (271ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (549ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (433ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (224ms)
-				ProcessInitializeOnLoadMethodAttributes (188ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2403 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (58.9 KB). Loaded Objects now: 2854.
-Memory consumption went from 93.5 MB to 93.4 MB.
-Total: 12.213600 ms (FindLiveObjects: 0.473700 ms CreateObjectMapping: 0.372700 ms MarkObjects: 11.218800 ms  DeleteObjects: 0.147500 ms)
+Unloading 2729 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (59.9 KB). Loaded Objects now: 3180.
+Memory consumption went from 109.0 MB to 108.9 MB.
+Total: 6.573900 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.119300 ms MarkObjects: 6.053700 ms  DeleteObjects: 0.111700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,40 +166,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1954983.647113 seconds.
-  path: Assets/Models/Kart/Materials/bodyk_std_a_spm.png
-  artifactKey: Guid(f19f3ca8b6f7fee409d5ed89de454fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Kart/Materials/bodyk_std_a_spm.png using Guid(f19f3ca8b6f7fee409d5ed89de454fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd088e38721f76fb27e4cc8047442abfc') in 0.123826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Models/Kart/Materials/bodyk_std_mii05_alb.png
-  artifactKey: Guid(e52ef2a89ce9056469ddec728cfabef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Kart/Materials/bodyk_std_mii05_alb.png using Guid(e52ef2a89ce9056469ddec728cfabef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a4fef4bdd2348e238878f557feb315') in 0.014776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Models/Kart/Materials/bodyk_std_lig_alb.png
-  artifactKey: Guid(e3c20db45ab7254428679a2fd1debe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Kart/Materials/bodyk_std_lig_alb.png using Guid(e3c20db45ab7254428679a2fd1debe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8e99465a12771302f72058b56248d3') in 0.015758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/Kart/Materials/bodyk_std_knc_alb.png
-  artifactKey: Guid(6e199193d97dc544b83ca6d7a24ee6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Kart/Materials/bodyk_std_knc_alb.png using Guid(6e199193d97dc544b83ca6d7a24ee6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e05ee5bb0092d1c2836fb222582f016') in 0.014134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001936 seconds.
-  path: Assets/Models/Kart/Materials/Luigi Kart.mat
-  artifactKey: Guid(b06c63f1dac25644d8d5dc5e6894dc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Kart/Materials/Luigi Kart.mat using Guid(b06c63f1dac25644d8d5dc5e6894dc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc39aa23570c831c5714656b9c920d0') in 0.081581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Models/Kart/Materials/bodyk_std_hyh00_alb.png
-  artifactKey: Guid(b3afe97146cbded40ba2b24a0a300fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Kart/Materials/bodyk_std_hyh00_alb.png using Guid(b3afe97146cbded40ba2b24a0a300fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf45bd337ecb77c156f33374ebe0934b') in 0.013961 seconds 
+  Time since last request: 1955500.544634 seconds.
+  path: Assets/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModel Slim.prefab
+  artifactKey: Guid(d5082f7d9f947374197e0a97786f4e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModel Slim.prefab using Guid(d5082f7d9f947374197e0a97786f4e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde652a10a793a995128ab11387327ff') in 0.125821 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
