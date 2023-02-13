@@ -68,8 +68,6 @@ public class PlayerScript : MonoBehaviour
         groundNormalRotation();
         drift();
         boosts();
-
-        camera.transform.position = transform.position + new Vector3(0, 2.611f, -7.623f);
     }
 
     private void move()
