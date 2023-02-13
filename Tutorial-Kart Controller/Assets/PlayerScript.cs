@@ -8,7 +8,6 @@ public class PlayerScript : MonoBehaviour
     private Rigidbody rb;
     public GameObject camera;
 
-
     private float CurrentSpeed = 0;
     public float MaxSpeed;
     public float boostSpeed;
@@ -70,6 +69,7 @@ public class PlayerScript : MonoBehaviour
         drift();
         boosts();
 
+        camera.transform.position = transform.position + new Vector3(0, 2.611f, -7.623f);
     }
 
     private void move()
@@ -108,7 +108,6 @@ public class PlayerScript : MonoBehaviour
     {
         steerDirection = Input.GetAxisRaw("Horizontal"); // -1, 0, 1
         Vector3 steerDirVect; //this is used for the final rotation of the kart for steering
-        Vector3 cameraDirVect;
 
         float steerAmount;
 
@@ -118,16 +117,16 @@ public class PlayerScript : MonoBehaviour
             steerDirection = Input.GetAxis("Horizontal") < 0 ? -1.5f : -0.5f;
             transform.GetChild(0).localRotation = Quaternion.Lerp(transform.GetChild(0).localRotation, Quaternion.Euler(0, -20f, 0), 8f * Time.deltaTime);
 
-            
-            if(isSliding && touchingGround)
-               rb.AddForce(transform.right * outwardsDriftForce * Time.deltaTime, ForceMode.Acceleration);
+
+            if (isSliding && touchingGround)
+                rb.AddForce(transform.right * outwardsDriftForce * Time.deltaTime, ForceMode.Acceleration);
         }
         else if (driftRight && !driftLeft)
         {
             steerDirection = Input.GetAxis("Horizontal") > 0 ? 1.5f : 0.5f;
             transform.GetChild(0).localRotation = Quaternion.Lerp(transform.GetChild(0).localRotation, Quaternion.Euler(0, 20f, 0), 8f * Time.deltaTime);
 
-            if(isSliding && touchingGround)
+            if (isSliding && touchingGround)
                 rb.AddForce(transform.right * -outwardsDriftForce * Time.deltaTime, ForceMode.Acceleration);
         }
         else
@@ -144,11 +143,11 @@ public class PlayerScript : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftArrow) && GLIDER_FLY)  //left
         {
-            transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, 40), 2 * Time.deltaTime);          
+            transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, 40), 2 * Time.deltaTime);
         } // left 
         else if (Input.GetKey(KeyCode.RightArrow) && GLIDER_FLY) //right
         {
-          
+
             transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, -40), 2 * Time.deltaTime);
         } //right
         else //nothing
@@ -156,14 +155,14 @@ public class PlayerScript : MonoBehaviour
             transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, 0), 2 * Time.deltaTime);
         } //nothing
 
-        if (Input.GetKey(KeyCode.UpArrow) && GLIDER_FLY) 
+        if (Input.GetKey(KeyCode.UpArrow) && GLIDER_FLY)
         {
-            
+
             transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, Quaternion.Euler(25, transform.eulerAngles.y, transform.eulerAngles.z), 2 * Time.deltaTime);
-            
+
             rb.AddForce(Vector3.down * 8000 * Time.deltaTime, ForceMode.Acceleration);
         } //moving down
-        else if (Input.GetKey(KeyCode.DownArrow) && GLIDER_FLY)  
+        else if (Input.GetKey(KeyCode.DownArrow) && GLIDER_FLY)
         {
             transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, Quaternion.Euler(-25, transform.eulerAngles.y, transform.eulerAngles.z), 2 * Time.deltaTime);
             rb.AddForce(Vector3.up * 4000 * Time.deltaTime, ForceMode.Acceleration);
@@ -174,19 +173,13 @@ public class PlayerScript : MonoBehaviour
             transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, Quaternion.Euler(0, transform.eulerAngles.y, transform.eulerAngles.z), 2 * Time.deltaTime);
         }
 
-        
-
-
-
-
 
 
         steerDirVect = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y + steerAmount, transform.eulerAngles.z);
-        transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, steerDirVect , 3 * Time.deltaTime);
+        transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, steerDirVect, 3 * Time.deltaTime);
 
-        cameraDirVect = new Vector3(camera.transform.eulerAngles.x, transform.eulerAngles.y, camera.transform.eulerAngles.z);
-        camera.transform.eulerAngles = Vector3.Lerp(camera.transform.eulerAngles, cameraDirVect, 3 * Time.deltaTime);
     }
+
     private void groundNormalRotation()
     {
         RaycastHit hit;
