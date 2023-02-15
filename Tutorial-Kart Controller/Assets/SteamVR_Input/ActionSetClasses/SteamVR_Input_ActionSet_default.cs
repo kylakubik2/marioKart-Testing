@@ -113,6 +113,30 @@ namespace Valve.VR
             }
         }
         
+        public virtual SteamVR_Action_Boolean kartReverse
+        {
+            get
+            {
+                return SteamVR_Actions.default_kartReverse;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean kartTurnLeft
+        {
+            get
+            {
+                return SteamVR_Actions.default_kartTurnLeft;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean kartTurnRight
+        {
+            get
+            {
+                return SteamVR_Actions.default_kartTurnRight;
+            }
+        }
+        
         public virtual SteamVR_Action_Vibration Haptic
         {
             get

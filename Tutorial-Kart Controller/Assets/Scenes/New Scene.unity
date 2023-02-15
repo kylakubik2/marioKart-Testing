@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1927,15 +1927,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.09
+      value: 8.54
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.51
+      value: 1.28
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.69
+      value: -13.05
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10630,6 +10630,8 @@ GameObject:
   - component: {fileID: 2008958359}
   - component: {fileID: 2008958361}
   - component: {fileID: 2008958365}
+  - component: {fileID: 2008958366}
+  - component: {fileID: 2008958367}
   m_Layer: 0
   m_Name: THE PLAYER
   m_TagString: Player
@@ -10766,6 +10768,46 @@ MonoBehaviour:
     needsReinit: 0
   handType: 2
   kart: {fileID: 2008958358}
+  MaxSpeed: 1500
+--- !u!114 &2008958366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008958358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30becfee93e98154e9499f27368206f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kartReverse:
+    actionPath: /actions/default/in/kartReverse
+    needsReinit: 0
+  handType: 1
+  kart: {fileID: 2008958358}
+  MaxSpeed: 1500
+--- !u!114 &2008958367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008958358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0159595b77331f149a60c53d5a5a52c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnLeft:
+    actionPath: /actions/default/in/kartTurnLeft
+    needsReinit: 0
+  handType: 1
+  kart: {fileID: 2008958358}
+  frontLeftTire: {fileID: 1098877018}
+  frontRightTire: {fileID: 2040238445}
+  backLeftTire: {fileID: 686115677}
+  backRightTire: {fileID: 1487694863}
   MaxSpeed: 1500
 --- !u!4 &2010122210 stripped
 Transform:

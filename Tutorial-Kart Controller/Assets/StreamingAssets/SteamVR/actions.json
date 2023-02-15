@@ -55,6 +55,20 @@
       "requirement": "mandatory"
     },
     {
+      "name": "/actions/default/in/kartReverse",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/default/in/kartTurnLeft",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/default/in/kartTurnRight",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
