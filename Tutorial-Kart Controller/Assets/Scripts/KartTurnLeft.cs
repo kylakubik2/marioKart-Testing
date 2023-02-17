@@ -15,7 +15,6 @@ public class KartTurnLeft : MonoBehaviour
     public Transform backLeftTire;
     public Transform backRightTire;
 
-    private float CurrentSpeed = 0;
     public float MaxSpeed;
     private float RealSpeed;
 
