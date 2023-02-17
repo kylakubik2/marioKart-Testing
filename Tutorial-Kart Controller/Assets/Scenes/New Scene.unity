@@ -10450,8 +10450,6 @@ GameObject:
   - component: {fileID: 2008958359}
   - component: {fileID: 2008958361}
   - component: {fileID: 2008958365}
-  - component: {fileID: 2008958366}
-  - component: {fileID: 2008958367}
   m_Layer: 0
   m_Name: THE PLAYER
   m_TagString: Player
@@ -10553,11 +10551,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cab17d03ff89c2e4a92501d1e80a5e9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 0}
   MaxSpeed: 60
   boostSpeed: 80
   GLIDER_FLY: 0
-  gliderAnim: {fileID: 0}
   frontLeftTire: {fileID: 1098877018}
   frontRightTire: {fileID: 2040238445}
   backLeftTire: {fileID: 686115677}
@@ -10586,49 +10582,24 @@ MonoBehaviour:
   kartGo:
     actionPath: /actions/default/in/kartGo
     needsReinit: 0
-  handType: 2
-  kart: {fileID: 2008958358}
-  MaxSpeed: 1000
---- !u!114 &2008958366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008958358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1063719485072e54383ecb20a9c36d25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  rightHand: 2
   kartReverse:
     actionPath: /actions/default/in/kartReverse
     needsReinit: 0
-  handType: 1
-  kart: {fileID: 2008958358}
-  MaxSpeed: 1000
---- !u!114 &2008958367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008958358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f2108a5251dc774e8d0412ffed67b31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turnLeft:
+  leftHand: 1
+  kartTurnLeft:
     actionPath: /actions/default/in/kartTurnLeft
     needsReinit: 0
-  handType: 1
-  kart: {fileID: 2008958358}
+  kartTurnRight:
+    actionPath: /actions/default/in/kartTurnRight
+    needsReinit: 0
   frontLeftTire: {fileID: 1098877018}
   frontRightTire: {fileID: 2040238445}
   backLeftTire: {fileID: 686115677}
   backRightTire: {fileID: 1487694863}
-  MaxSpeed: 1000
+  kart: {fileID: 2008958358}
+  rb: {fileID: 2008958359}
+  MaxSpeed: 2500
 --- !u!4 &2010122210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2589639838607843832, guid: 353d9c1e6a9eba34f96b03041b7c72a4,

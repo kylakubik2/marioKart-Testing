@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class PlayerScript : MonoBehaviour
 {
     private Rigidbody rb;
-    public GameObject camera;
 
     private float CurrentSpeed = 0;
     public float MaxSpeed;
@@ -14,8 +13,6 @@ public class PlayerScript : MonoBehaviour
     private float RealSpeed; //not the applied speed
     [HideInInspector]
     public bool GLIDER_FLY;
-
-    public Animator gliderAnim;
 
     [Header("Tires")]
     public Transform frontLeftTire;
@@ -378,23 +375,4 @@ public class PlayerScript : MonoBehaviour
 
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if(other.gameObject.tag == "GliderPanel")
-        {
-            GLIDER_FLY = true;
-            gliderAnim.SetBool("GliderOpen", true);
-            gliderAnim.SetBool("GliderClose", false);
-        }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "Ground" || collision.gameObject.tag == "OffRoad")
-        {
-            GLIDER_FLY = false;
-            gliderAnim.SetBool("GliderOpen", false);
-            gliderAnim.SetBool("GliderClose", true);
-        }
-    }
 }
