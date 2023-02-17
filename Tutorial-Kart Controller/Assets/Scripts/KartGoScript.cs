@@ -28,6 +28,7 @@ public class KartGoScript : MonoBehaviour
     private float steerDirection;
     Vector3 steerDirVect;
     float steerAmount;
+
     void Start()
     {
         kartGo.AddOnStateDownListener(GoTriggerDown, rightHand);
@@ -41,27 +42,26 @@ public class KartGoScript : MonoBehaviour
         kartTurnRight.AddOnStateDownListener(RightTurnDown, rightHand);
         kartTurnRight.AddOnStateUpListener(RightTurnDown, rightHand);
     }
+
+
     public void GoTriggerUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        Debug.Log("Go trigger is up");
         CurrentSpeed = Mathf.Lerp(CurrentSpeed, 0, Time.deltaTime * 1.5f);
     }
     public void GoTriggerDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        Debug.Log("Go trigger is down");
         CurrentSpeed = Mathf.Lerp(CurrentSpeed, MaxSpeed, Time.deltaTime * 0.5f);
     }
 
 
     public void ReverseTriggerDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        Debug.Log("Reverse trigger is down");
         CurrentSpeed = Mathf.Lerp(CurrentSpeed, -MaxSpeed / 1.75f, 1f * Time.deltaTime);
     }
 
+
     public void LeftTurnUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        Debug.Log("Left is up");
         frontLeftTire.localEulerAngles = Vector3.Lerp(frontLeftTire.localEulerAngles, new Vector3(0, 180, 0), 5 * Time.deltaTime);
         frontRightTire.localEulerAngles = Vector3.Lerp(frontLeftTire.localEulerAngles, new Vector3(0, 180, 0), 5 * Time.deltaTime);
 
@@ -69,7 +69,6 @@ public class KartGoScript : MonoBehaviour
     }
     public void LeftTurnDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        Debug.Log("Left is down");
         frontLeftTire.localEulerAngles = Vector3.Lerp(frontLeftTire.localEulerAngles, new Vector3(0, 155, 0), 5 * Time.deltaTime);
         frontRightTire.localEulerAngles = Vector3.Lerp(frontLeftTire.localEulerAngles, new Vector3(0, 155, 0), 5 * Time.deltaTime);
 
@@ -79,7 +78,6 @@ public class KartGoScript : MonoBehaviour
 
     public void RightTurnUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        Debug.Log("Right is up");
         frontLeftTire.localEulerAngles = Vector3.Lerp(frontLeftTire.localEulerAngles, new Vector3(0, 180, 0), 5 * Time.deltaTime);
         frontRightTire.localEulerAngles = Vector3.Lerp(frontLeftTire.localEulerAngles, new Vector3(0, 180, 0), 5 * Time.deltaTime);
 
@@ -87,17 +85,17 @@ public class KartGoScript : MonoBehaviour
     }
     public void RightTurnDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        Debug.Log("Right is down");
         frontLeftTire.localEulerAngles = Vector3.Lerp(frontLeftTire.localEulerAngles, new Vector3(0, 155, 0), 5 * Time.deltaTime);
         frontRightTire.localEulerAngles = Vector3.Lerp(frontLeftTire.localEulerAngles, new Vector3(0, 155, 0), 5 * Time.deltaTime);
 
         steerDirection = 1.0f;
     }
 
+
     void FixedUpdate()
     {
         Vector3 vel = transform.forward * CurrentSpeed;
-        vel.y = rb.velocity.y; //gravity
+        vel.y = rb.velocity.y;
         rb.velocity = vel;
 
         RealSpeed = transform.InverseTransformDirection(rb.velocity).z;
