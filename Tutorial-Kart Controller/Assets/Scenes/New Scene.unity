@@ -10577,6 +10577,10 @@ GameObject:
   - component: {fileID: 2008958360}
   - component: {fileID: 2008958359}
   - component: {fileID: 2008958361}
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 2008958365}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: THE PLAYER
   m_TagString: Player
@@ -10696,6 +10700,41 @@ MonoBehaviour:
   BoostTime: 0
   boostFire: {fileID: 1539121760}
   boostExplosion: {fileID: 1546434983}
+<<<<<<< Updated upstream
+=======
+--- !u!114 &2008958365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008958358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be391a23e1d8a6459e961b73c055d25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kartGo:
+    actionPath: /actions/default/in/kartGo
+    needsReinit: 0
+  rightHand: 2
+  kartReverse:
+    actionPath: /actions/default/in/kartReverse
+    needsReinit: 0
+  leftHand: 1
+  kartTurnLeft:
+    actionPath: /actions/default/in/kartTurnLeft
+    needsReinit: 0
+  kartTurnRight:
+    actionPath: /actions/default/in/kartTurnRight
+    needsReinit: 0
+  frontLeftTire: {fileID: 1098877018}
+  frontRightTire: {fileID: 2040238445}
+  backLeftTire: {fileID: 686115677}
+  backRightTire: {fileID: 1487694863}
+  kart: {fileID: 2008958358}
+  MaxSpeed: 2500
+>>>>>>> Stashed changes
 --- !u!4 &2010122210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2589639838607843832, guid: 353d9c1e6a9eba34f96b03041b7c72a4,
