@@ -1179,6 +1179,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
@@ -3334,10 +3335,12 @@ m_ResolvedPackages:
     - 4.2.0
     - 4.2.1
     - 4.3.1
+    - 4.3.3
     compatible:
     - 4.2.0
     - 4.2.1
     - 4.3.1
+    - 4.3.3
     verified: 4.2.1
   dependencies:
   - name: com.unity.modules.subsystems
