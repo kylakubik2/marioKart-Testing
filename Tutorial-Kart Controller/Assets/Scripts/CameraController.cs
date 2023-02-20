@@ -18,6 +18,5 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         transform.position = kart.transform.position + offset;
-        target = new Quaternion(kart.transform.eulerAngles.x, kart.transform.eulerAngles.y, kart.transform.eulerAngles.z, kart.transform.rotation.w);
     }
 }
