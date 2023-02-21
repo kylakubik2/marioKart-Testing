@@ -9,6 +9,7 @@ TagManager:
   - OffRoad
   - GliderPanel
   - Ground
+  - FinishLine
   layers:
   - Default
   - TransparentFX
