@@ -1,27 +1,27 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart
+    m_FilePath: C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart
       Controller/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638125900572257528
+      ticks: 638125235740762400
     m_Hash: 4118648497
   m_LockFileStatus:
-    m_FilePath: C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart
+    m_FilePath: C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart
       Controller/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638125900572257528
+      ticks: 638125235740772374
     m_Hash: 569809699
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus:
-  - m_FilePath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  - m_FilePath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
       Controller\Assets\SteamVR\OpenVRUnityXRPackage\Editor\com.valvesoftware.unity.openvr-1.1.4.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
@@ -29,15 +29,15 @@ m_LocalPackages:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  - m_FilePath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
       Controller\Assets\SteamVR\OpenVRUnityXRPackage\Editor\com.valvesoftware.unity.openvr-1.1.4.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638125900433722025
+      ticks: 638125235530745060
     m_Hash: 2919789393
-m_ProjectPath: C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart
+m_ProjectPath: C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart
   Controller/Packages
 m_EditorVersion: 2021.3.7f1 (24e8595d6d43)
 m_ResolvedPackages:
@@ -46,7 +46,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.2d.sprite@1.0.0
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
@@ -98,7 +98,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.2d.tilemap@1.0.0
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
@@ -149,7 +149,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.7.5
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.ads@3.7.5
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
@@ -260,7 +260,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.6.12
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.analytics@3.6.12
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
@@ -358,7 +358,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.17.1
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.collab-proxy@1.17.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
@@ -508,7 +508,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
@@ -569,7 +569,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.15
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.ide.rider@3.0.15
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
@@ -659,7 +659,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.16
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
@@ -739,7 +739,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
@@ -801,7 +801,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.2.1
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.purchasing@4.2.1
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
@@ -888,6 +888,7 @@ m_ResolvedPackages:
     - 4.5.0
     - 4.5.1
     - 4.5.2
+    - 4.6.0
     compatible:
     - 4.2.1
     - 4.3.0
@@ -896,6 +897,7 @@ m_ResolvedPackages:
     - 4.5.0
     - 4.5.1
     - 4.5.2
+    - 4.6.0
     verified: 4.2.1
   dependencies:
   - name: com.unity.ugui
@@ -962,7 +964,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.31
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
@@ -1015,6 +1017,7 @@ m_ResolvedPackages:
     - 1.3.0
     - 1.3.1
     - 1.3.2
+    - 1.3.3
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1025,6 +1028,7 @@ m_ResolvedPackages:
     - 1.3.0
     - 1.3.1
     - 1.3.2
+    - 1.3.3
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1072,7 +1076,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
@@ -1192,6 +1196,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
@@ -1240,7 +1245,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.4
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.timeline@1.6.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
@@ -1330,7 +1335,9 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.7.2
+    - 1.7.3
     - 1.8.0
+    - 1.8.1
     compatible:
     - 1.6.4
     - 1.7.0-pre.1
@@ -1338,7 +1345,9 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.7.2
+    - 1.7.3
     - 1.8.0
+    - 1.8.1
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -1389,7 +1398,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
@@ -1447,13 +1456,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.valvesoftware.unity.openvr@file:C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+- packageId: com.valvesoftware.unity.openvr@file:C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Assets\SteamVR\OpenVRUnityXRPackage\Editor\com.valvesoftware.unity.openvr-1.1.4.tgz
   testable: 0
   isDirectDependency: 1
   version: 1.1.4
   source: 6
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.valvesoftware.unity.openvr@3ee6c452bc34
   assetPath: Packages/com.valvesoftware.unity.openvr
   name: com.valvesoftware.unity.openvr
@@ -1539,7 +1548,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
@@ -1588,7 +1597,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
@@ -1636,7 +1645,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
@@ -1685,7 +1694,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
@@ -1734,7 +1743,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
@@ -1783,7 +1792,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
@@ -1836,7 +1845,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
@@ -1893,7 +1902,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
@@ -1943,7 +1952,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
@@ -1992,7 +2001,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
@@ -2041,7 +2050,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
@@ -2090,7 +2099,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
@@ -2139,7 +2148,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
@@ -2188,7 +2197,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
@@ -2241,7 +2250,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
@@ -2290,7 +2299,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
@@ -2347,7 +2356,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
@@ -2399,7 +2408,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
@@ -2448,7 +2457,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
@@ -2513,7 +2522,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
@@ -2562,7 +2571,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
@@ -2619,7 +2628,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
@@ -2668,7 +2677,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
@@ -2725,7 +2734,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
@@ -2782,7 +2791,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
@@ -2839,7 +2848,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
@@ -2912,7 +2921,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
@@ -2965,7 +2974,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
@@ -3026,7 +3035,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
@@ -3089,7 +3098,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
@@ -3138,7 +3147,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
@@ -3199,7 +3208,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
@@ -3252,7 +3261,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
@@ -3312,7 +3321,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.2.0
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.xr.management@4.2.0
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
@@ -3380,10 +3389,12 @@ m_ResolvedPackages:
     - 4.2.0
     - 4.2.1
     - 4.3.1
+    - 4.3.3
     compatible:
     - 4.2.0
     - 4.2.1
     - 4.3.1
+    - 4.3.3
     verified: 4.2.1
   dependencies:
   - name: com.unity.modules.subsystems
@@ -3444,7 +3455,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.9
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
@@ -3541,7 +3552,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.4.2
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.services.core@1.4.2
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
@@ -3628,7 +3639,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.0.1
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.services.analytics@4.0.1
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
@@ -3717,7 +3728,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.0
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.subsystemregistration@1.1.0
   assetPath: Packages/com.unity.subsystemregistration
   name: com.unity.subsystemregistration
@@ -3783,7 +3794,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.2
   source: 1
-  resolvedPath: C:\Users\kylak\OneDrive\Desktop\VR\Mariokart\marioKart-Testing\Tutorial-Kart
+  resolvedPath: C:\Users\Holson11\Documents\GitHub\marioKart-Testing\Tutorial-Kart
     Controller\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json

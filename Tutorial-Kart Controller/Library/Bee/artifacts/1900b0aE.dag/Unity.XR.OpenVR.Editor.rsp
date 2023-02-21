@@ -107,6 +107,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -330,15 +331,15 @@
 -r:"C:/Program Files/Unity 2021.3.7f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity 2021.3.7f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity 2021.3.7f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
--r:"C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
--r:"C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
--r:"C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
--r:"C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/log4netPlastic.dll"
--r:"C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
--r:"C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
--r:"C:/Users/kylak/OneDrive/Desktop/VR/Mariokart/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+-r:"C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
+-r:"C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
+-r:"C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenVR.ref.dll"
