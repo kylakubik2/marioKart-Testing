@@ -41,6 +41,7 @@ public class KartGoScript : MonoBehaviour
     public AudioClip coinClip;
     public AudioClip boostClip;
     public AudioClip bombClip;
+
     public AudioClip cheer;
 
     void Start()
@@ -128,6 +129,7 @@ public class KartGoScript : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             coinCount = coinCount + 1;
+            source.PlayOneShot(coinClip);
 
             SetCountText();
         }
@@ -136,12 +138,14 @@ public class KartGoScript : MonoBehaviour
             other.gameObject.SetActive(false);
             startEffectTime = Time.time;
             MaxSpeed = MaxSpeed * 1.25f;
+            source.PlayOneShot(boostClip);
         }
         else if (other.gameObject.CompareTag("Bomb"))
         {
             other.gameObject.SetActive(false);
             startEffectTime = Time.time;
             MaxSpeed = MaxSpeed * 0.5f;
+            source.PlayOneShot(bombClip);
         }
         else if (other.gameObject.CompareTag("FinishLine"))
         {
