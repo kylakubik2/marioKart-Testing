@@ -10,6 +10,9 @@ TagManager:
   - GliderPanel
   - Ground
   - FinishLine
+  - Mushroom
+  - Coin
+  - Bomb
   layers:
   - Default
   - TransparentFX

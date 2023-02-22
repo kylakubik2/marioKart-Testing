@@ -1,0 +1,648 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 65263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+65092
+Successfully changed project path to: C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller
+C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 119.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Holson11/Documents/GitHub/marioKart-Testing/Tutorial-Kart Controller/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e04)
+    Vendor:   NVIDIA
+    VRAM:     11041 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007402 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.806 seconds
+Domain Reload Profiling:
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1350ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1040ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (549ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (173ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (59.5 KB). Loaded Objects now: 3189.
+Memory consumption went from 109.3 MB to 109.3 MB.
+Total: 33.118400 ms (FindLiveObjects: 0.402100 ms CreateObjectMapping: 0.294700 ms MarkObjects: 32.273100 ms  DeleteObjects: 0.147400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3001577.241516 seconds.
+  path: Assets/Particles/FireShapes 1.tga
+  artifactKey: Guid(821ffe6fbed269147bd9ee4d9d5a8d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/FireShapes 1.tga using Guid(821ffe6fbed269147bd9ee4d9d5a8d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844a6b2fa5e1d6ac1d901a802abb0a76') in 0.181428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Particles/ParticlesBoostBurst.prefab
+  artifactKey: Guid(9030e7fb4c4e6794c9657d30df278489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/ParticlesBoostBurst.prefab using Guid(9030e7fb4c4e6794c9657d30df278489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0985ad822db480597f6ca4dc7bdb552e') in 0.098937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Particles/Glow2.png
+  artifactKey: Guid(ff65ca13bf54b2b489f30a1c6f6e14e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Glow2.png using Guid(ff65ca13bf54b2b489f30a1c6f6e14e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd59b3db8fb16afd2aa15afc58577b38') in 0.059195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.354286 seconds.
+  path: Assets/Models/Materials
+  artifactKey: Guid(1de1839ed8ab14543a1093be8a056155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials using Guid(1de1839ed8ab14543a1093be8a056155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d4272efcdbcfcc4ed7de8ab28b8459') in 0.002605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.055847 seconds.
+  path: Assets/Models/Kart/Materials/body_dummy_alb.mat
+  artifactKey: Guid(8c43e60fd7bb86c4d9c483a76ee4e434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kart/Materials/body_dummy_alb.mat using Guid(8c43e60fd7bb86c4d9c483a76ee4e434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f4df2b0735ffdfc7a0bc5c448086da') in 0.067863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.471112 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/bannerTowerGreen_NE.png
+  artifactKey: Guid(a6180b91c799be0488c79ab579a53bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/bannerTowerGreen_NE.png using Guid(a6180b91c799be0488c79ab579a53bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9210218e041aa2aefdd9503fedce2650') in 0.014707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/barrierWhite_NE.png
+  artifactKey: Guid(a62cf70b8b85d7c4c90d89a131ebde5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/barrierWhite_NE.png using Guid(a62cf70b8b85d7c4c90d89a131ebde5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecf7de9d22b0eed5aa17a5a1d5879f9') in 0.011860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/lightPost_exclusive_SE.png
+  artifactKey: Guid(f01b258481c92534a91c5072facd134d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/lightPost_exclusive_SE.png using Guid(f01b258481c92534a91c5072facd134d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5a6e4a296c261a04a4fcff3f78eaa2') in 0.012516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/flagCheckers_SE.png
+  artifactKey: Guid(32943a5d382130c459991060dc067a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/flagCheckers_SE.png using Guid(32943a5d382130c459991060dc067a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1707aa0d2214d8004ab6e3699fe2e8cc') in 0.014075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/flagTankco_NW.png
+  artifactKey: Guid(5dbb2492fb0784c45b5a2bea4a21ba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/flagTankco_NW.png using Guid(5dbb2492fb0784c45b5a2bea4a21ba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8071a6f96acf5f55be9c85f767b5d2') in 0.014566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/billboard_SW.png
+  artifactKey: Guid(671853cbe9b986749b29ef26ed3dbeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/billboard_SW.png using Guid(671853cbe9b986749b29ef26ed3dbeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001a9b2299cbee1de041d0557a645b80') in 0.014195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/grandStandCovered_NE.png
+  artifactKey: Guid(5ff05ac29f9041840a15c9a9547de265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/grandStandCovered_NE.png using Guid(5ff05ac29f9041840a15c9a9547de265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d8b8334801be4f734ec2918b71f031') in 0.014155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/camera_exclusive_SE.png
+  artifactKey: Guid(45ffc2384fec49347bef75dcd24676e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/camera_exclusive_SE.png using Guid(45ffc2384fec49347bef75dcd24676e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fa95d7a2d6aad0e7823dda51f944ff') in 0.012400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/billboardLower_SE.png
+  artifactKey: Guid(12b0ee1b1c9a4264092650467e8d5b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/billboardLower_SE.png using Guid(12b0ee1b1c9a4264092650467e8d5b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd5e82f2489a68f0d49ac6e14703786') in 0.012481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/lightPostModern_NW.png
+  artifactKey: Guid(d648a01661fa08b418a0c034e81a683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/lightPostModern_NW.png using Guid(d648a01661fa08b418a0c034e81a683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c778d26b9dd33bd9c077e32058ea025') in 0.012235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/barrierWall_SE.png
+  artifactKey: Guid(3eca4b895f00b614e9f23e7ebf936808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/barrierWall_SE.png using Guid(3eca4b895f00b614e9f23e7ebf936808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0319df00c9ce4858123c92764d9073') in 0.012511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/lightRed_SW.png
+  artifactKey: Guid(63a31770938d5f542a734c19d46fc288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/lightRed_SW.png using Guid(63a31770938d5f542a734c19d46fc288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1345337d31789ecefeabb791908a330c') in 0.011418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/camera_exclusive_NE.png
+  artifactKey: Guid(47b160814fd6aa045a304515ca0cd319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/camera_exclusive_NE.png using Guid(47b160814fd6aa045a304515ca0cd319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5b89ca8b32cae967d6d0b730269b7c') in 0.012050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/lightPost_exclusive_SW.png
+  artifactKey: Guid(57dfa658f6a959b45ad6ea48f98c4758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/lightPost_exclusive_SW.png using Guid(57dfa658f6a959b45ad6ea48f98c4758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53eec25eb83ba4273401468917f664e7') in 0.011071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/lightPostModern_NE.png
+  artifactKey: Guid(32c879675e8ee1149ac0be51af9bd3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/lightPostModern_NE.png using Guid(32c879675e8ee1149ac0be51af9bd3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0104060aff395f7214273834a1acce5d') in 0.011456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/lightRed_NW.png
+  artifactKey: Guid(5612272e8bd8cf14cb7461f9d779310b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/lightRed_NW.png using Guid(5612272e8bd8cf14cb7461f9d779310b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3a079f99bb127875df838095abb094') in 0.012422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/overhead_SE.png
+  artifactKey: Guid(7a0c34a3e1326794a937580bab97cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/overhead_SE.png using Guid(7a0c34a3e1326794a937580bab97cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed72afcf313992b752ce94c6ca22717') in 0.011189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/grandStandCoveredRound_SE.png
+  artifactKey: Guid(8e932812ec7151a48b7c6a5688b801a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/grandStandCoveredRound_SE.png using Guid(8e932812ec7151a48b7c6a5688b801a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f39eba8ddf0463800668e6a6564e16') in 0.012832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/lightRedDouble_NE.png
+  artifactKey: Guid(302d8b3f68f1f5649aae59fef22dd439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/lightRedDouble_NE.png using Guid(302d8b3f68f1f5649aae59fef22dd439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c0e0e33c0eb842bdc5b525f58c2043') in 0.011420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/grandStandAwning_SW.png
+  artifactKey: Guid(758b2ad87b4737f42b659ebbf29b65db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/grandStandAwning_SW.png using Guid(758b2ad87b4737f42b659ebbf29b65db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24634f79371f6a99488ea7eb51d8ddb0') in 0.014080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.563796 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/overheadLights_NW.png
+  artifactKey: Guid(ab15d6bc20f9ebb448b889e2b7a93366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/overheadLights_NW.png using Guid(ab15d6bc20f9ebb448b889e2b7a93366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd33f1f0fd8750d952f709a251b4530') in 0.014228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/pitsGarageClosed_NW.png
+  artifactKey: Guid(c9e9752ca2f0b044aafb39e35b6b7a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/pitsGarageClosed_NW.png using Guid(c9e9752ca2f0b044aafb39e35b6b7a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357551ed8cdcdae9a5177e3f58dcdef7') in 0.140360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/pitsGarage_SE.png
+  artifactKey: Guid(65f6cbb8fc8a6f34b9ecdf72c14bdf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/pitsGarage_SE.png using Guid(65f6cbb8fc8a6f34b9ecdf72c14bdf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0b5185f6ce00b9eca93aaa30ee07b6') in 0.021142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.942429 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/pitsOffice_NW.png
+  artifactKey: Guid(b27dd655a02273e45830d7fde77c0d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/pitsOffice_NW.png using Guid(b27dd655a02273e45830d7fde77c0d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f3e8e1c5ba9b06664d57f10ca560ea') in 0.014109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/pitsOfficeRoof_SE.png
+  artifactKey: Guid(d16ec5a1dcf3cb6489bc9b02c21f8f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/pitsOfficeRoof_SE.png using Guid(d16ec5a1dcf3cb6489bc9b02c21f8f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075221bd638dbcec99a1f01d90410dd3') in 0.012777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/raceCarGreen_NE.png
+  artifactKey: Guid(90861cd6f43fab144a6440a9a747e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/raceCarGreen_NE.png using Guid(90861cd6f43fab144a6440a9a747e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4808d1d3de193fcd617e79f25a86e4') in 0.013774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/pitsOfficeCorner_SW.png
+  artifactKey: Guid(ff3746128dbbdc74cba00b493b309a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/pitsOfficeCorner_SW.png using Guid(ff3746128dbbdc74cba00b493b309a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc278cfccfaf88339900d413b715f1cf') in 0.013012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094843 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/raceCarOrange_N.png
+  artifactKey: Guid(dc93e5f74ee36074cb0dc7db811e18e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/raceCarOrange_N.png using Guid(dc93e5f74ee36074cb0dc7db811e18e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e266ca1d7eed134661ab2e83814202f5') in 0.013097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/raceCarRed_S.png
+  artifactKey: Guid(a0cabd337569b8440bf0313846d6fcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/raceCarRed_S.png using Guid(a0cabd337569b8440bf0313846d6fcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09798f6dc03695ba63b349e13918e6a') in 0.013287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/raceCarRed_N.png
+  artifactKey: Guid(6fe4177c3a33b57479b62e859737d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/raceCarRed_N.png using Guid(6fe4177c3a33b57479b62e859737d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dbfe22228cf8a94e446daf571493e6') in 0.012200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/raceCarWhite_S.png
+  artifactKey: Guid(e14f8d66528f8bc4899f94dea4fdd925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/raceCarWhite_S.png using Guid(e14f8d66528f8bc4899f94dea4fdd925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5a43148943781abcc694d1809f99df') in 0.013275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.352727 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/radarEquipment_NW.png
+  artifactKey: Guid(957e56e3fe080864ea3634a30c021d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/radarEquipment_NW.png using Guid(957e56e3fe080864ea3634a30c021d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba46581507c8962464d73773dc0260f') in 0.014507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/ramp_SE.png
+  artifactKey: Guid(18cac2cbdcca7014d9fbc54f0dad8d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/ramp_SE.png using Guid(18cac2cbdcca7014d9fbc54f0dad8d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd756150948cb47fd78384dced65f55') in 0.016522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadBump_SW.png
+  artifactKey: Guid(1fe21fe83fbdd784fac8f452508f3205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadBump_SW.png using Guid(1fe21fe83fbdd784fac8f452508f3205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881d966864f90aea340a677676249a07') in 0.015060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/ramp_SW.png
+  artifactKey: Guid(f7253672eca028341bbc463e561d0d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/ramp_SW.png using Guid(f7253672eca028341bbc463e561d0d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc0911d32fec18d914c26016439476c') in 0.014408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104303 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerBridgeLarger_NW.png
+  artifactKey: Guid(cc98f4da435c0474486df18abbf87fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerBridgeLarger_NW.png using Guid(cc98f4da435c0474486df18abbf87fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7dbd9ab6b8e04050121aa8c56ccf0d4') in 0.017774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerLarger_SW.png
+  artifactKey: Guid(47be22e2763449346a3940e397271b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerLarger_SW.png using Guid(47be22e2763449346a3940e397271b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746ba3d5b4733cbf2e71fdef9bc8c1c3') in 0.011721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerLargeBorderInner_SE.png
+  artifactKey: Guid(e2610c5b71160a6498466ba600f013c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerLargeBorderInner_SE.png using Guid(e2610c5b71160a6498466ba600f013c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60243e4fb52addf8ff5bcc6664f7ca1') in 0.015564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerLarger_NW.png
+  artifactKey: Guid(891b2131f10ab8944b51ee31e9feb7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerLarger_NW.png using Guid(891b2131f10ab8944b51ee31e9feb7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ffdf20e3726b8054fb96e98c5b6fb8') in 0.012593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.845344 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerLargerBorder_NW.png
+  artifactKey: Guid(28631a2662f093a4da04578a7e45cea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerLargerBorder_NW.png using Guid(28631a2662f093a4da04578a7e45cea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eac5ec9628a5a053dcb4e61c3b48450') in 0.023749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerLargerWall_NW.png
+  artifactKey: Guid(93099c60d44385e4a8f6095b9e7cf7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerLargerWall_NW.png using Guid(93099c60d44385e4a8f6095b9e7cf7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884cebd5605bd45c36b5fc43b5408066') in 0.038436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerLargerWallInner_NE.png
+  artifactKey: Guid(5fa4cdca06ea1fa47a7e6a48a4caa936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerLargerWallInner_NE.png using Guid(5fa4cdca06ea1fa47a7e6a48a4caa936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e77ba9827867b49287144f3998ef16') in 0.012533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerLargerSand_NW.png
+  artifactKey: Guid(5a14efecba249b642bc90f891282aafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerLargerSand_NW.png using Guid(5a14efecba249b642bc90f891282aafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9c3743062242359d6a08e50a1b8970') in 0.017195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.566819 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerLargeSand_NW.png
+  artifactKey: Guid(1aab1e418be5a13459d2d83fcfd4d881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerLargeSand_NW.png using Guid(1aab1e418be5a13459d2d83fcfd4d881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffd894bce180e17abdbbf31e2d43d65') in 0.012055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerLargeWallInner_NW.png
+  artifactKey: Guid(d6cc56bcac6a0dc40bd110ae007f47f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerLargeWallInner_NW.png using Guid(d6cc56bcac6a0dc40bd110ae007f47f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5165a4f3ea09763b3eecfb82ea7f902e') in 0.013745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerSmallBorder_SW.png
+  artifactKey: Guid(29786b41bc417914db4d6658dd700361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerSmallBorder_SW.png using Guid(29786b41bc417914db4d6658dd700361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172599c531b6b71b02e152b89a456630') in 0.013237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerSmallBorder_NW.png
+  artifactKey: Guid(8fb72978802538342817d3d18fc57368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerSmallBorder_NW.png using Guid(8fb72978802538342817d3d18fc57368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c1f05d5353a695ea56edc4b3b952ae') in 0.015312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.416840 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCornerSmallSand_NW.png
+  artifactKey: Guid(abb9ce45aaecfb645a02d368d9dc30fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCornerSmallSand_NW.png using Guid(abb9ce45aaecfb645a02d368d9dc30fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3f027b0ea83585f4efced678a2e50e') in 0.016209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCurvedSplit_SE.png
+  artifactKey: Guid(237ed9aa944c075418630a2b319cff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCurvedSplit_SE.png using Guid(237ed9aa944c075418630a2b319cff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bc23ee52c3d20d51ff6b18f6b00f09') in 0.013460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCurved_NW.png
+  artifactKey: Guid(8e44a5e213721404aa08c372f787e61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCurved_NW.png using Guid(8e44a5e213721404aa08c372f787e61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef81449b58fbe43443ec42eaf8379744') in 0.013012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadCrossing_NW.png
+  artifactKey: Guid(fe679d8efac20144584699067482c811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadCrossing_NW.png using Guid(fe679d8efac20144584699067482c811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ab77816ececcdab7c0df521dfa59c4') in 0.014406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073962 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadEnd_NW.png
+  artifactKey: Guid(1a39557c4164fc743bae8d8ea3b3e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadEnd_NW.png using Guid(1a39557c4164fc743bae8d8ea3b3e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ee7fbab94eee095b36b89227faad26') in 0.014461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadRamp_NE.png
+  artifactKey: Guid(3131a718ea31f0241bfc784a3cc6a76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadRamp_NE.png using Guid(3131a718ea31f0241bfc784a3cc6a76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d7b192063f8c85d77eebd1442d8d2f') in 0.012987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadPitGarage_NW.png
+  artifactKey: Guid(a68c95e59032bb54b82f9514484d876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadPitGarage_NW.png using Guid(a68c95e59032bb54b82f9514484d876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83ed8d2c73d9432447afeeca9d28fef') in 0.012967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadPitGarage_NE.png
+  artifactKey: Guid(622521ef859c9734391ca5e759aeca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadPitGarage_NE.png using Guid(622521ef859c9734391ca5e759aeca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17bfc6000b8ceb0fec53558be57da2f') in 0.013355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.571120 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadRampLong_NW.png
+  artifactKey: Guid(ffc2fef9d1ff3734f99356c84a1f8cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadRampLong_NW.png using Guid(ffc2fef9d1ff3734f99356c84a1f8cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3f860d641811df1ac20105dc98a841') in 0.016408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadSide_SE.png
+  artifactKey: Guid(cd9821eb1c2c479418f858dcfcf4d931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadSide_SE.png using Guid(cd9821eb1c2c479418f858dcfcf4d931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfab586c6a601a468c85631ecfe4d064') in 0.016305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadRampWall_NW.png
+  artifactKey: Guid(9cb1a5be8b2d10e4cac451b95674b51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadRampWall_NW.png using Guid(9cb1a5be8b2d10e4cac451b95674b51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb3e2b710fb89f061b9a026188bf01b') in 0.013099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadRampWall_NE.png
+  artifactKey: Guid(6451982a5c6dc8947b2f8fb544ba644e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadRampWall_NE.png using Guid(6451982a5c6dc8947b2f8fb544ba644e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f855d23b40729a6f8ad8952316a11b') in 0.015080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.508483 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadSplit_NW.png
+  artifactKey: Guid(1b7c62b3d7e11ce47810dcb1573f639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadSplit_NW.png using Guid(1b7c62b3d7e11ce47810dcb1573f639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2908185ed1104a1a6770fcf9f33426c2') in 0.012372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadSplitRoundLarge_NE.png
+  artifactKey: Guid(03144894683c20e408a99c3c21413148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadSplitRoundLarge_NE.png using Guid(03144894683c20e408a99c3c21413148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d02b3fb702165ff233979329f7a13c') in 0.013468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadSplitRoundLarge_NW.png
+  artifactKey: Guid(1ecf4dc7ef587b7409f3449837fe9d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadSplitRoundLarge_NW.png using Guid(1ecf4dc7ef587b7409f3449837fe9d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af80a77b69f8a581c14a6e7cb2cc63d') in 0.012926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadSplitRound_NW.png
+  artifactKey: Guid(a5a51962b60a82047a6234ddef22c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadSplitRound_NW.png using Guid(a5a51962b60a82047a6234ddef22c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1511fa8e0796eb7f91bf897c9d5a88c7') in 0.013928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091315 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadStart_NW.png
+  artifactKey: Guid(84ff85979e9008447a7674567628f27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadStart_NW.png using Guid(84ff85979e9008447a7674567628f27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d09f00d515f1a55f8026cfb77a7c6cb') in 0.015862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadStraightBridgeMid_SE.png
+  artifactKey: Guid(15cfa75ea6f0e944aaf9b834e61da942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadStraightBridgeMid_SE.png using Guid(15cfa75ea6f0e944aaf9b834e61da942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bbd7a30d389d3d2dd8a220f07d877a') in 0.012239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadStraight_SW.png
+  artifactKey: Guid(8f45da813d2ba2343948db384f5775e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadStraight_SW.png using Guid(8f45da813d2ba2343948db384f5775e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15da4cbdd0d0e8c4f445b86213bb071c') in 0.014139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadStraightBridge_SE.png
+  artifactKey: Guid(108901cedb6e3be48b57db70c2a44d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadStraightBridge_SE.png using Guid(108901cedb6e3be48b57db70c2a44d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc72e1903b5abfa8e999b0bda96c844b') in 0.014240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.447627 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadStraightBridgeStart_NW.png
+  artifactKey: Guid(92e22bae07729e64aacdceef9454d0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadStraightBridgeStart_NW.png using Guid(92e22bae07729e64aacdceef9454d0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784e2c7b7705c529c266b4c1a007c3e6') in 0.013759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadStraightLongMid_NW.png
+  artifactKey: Guid(73ee754a91002df429230088dd125439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadStraightLongMid_NW.png using Guid(73ee754a91002df429230088dd125439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749b4ac7242a70aec500c432b4d6906e') in 0.013567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadStraightLongMid_SE.png
+  artifactKey: Guid(3513114f179b7bc449d71f7918ae66dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadStraightLongMid_SE.png using Guid(3513114f179b7bc449d71f7918ae66dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8dcbd600e81b8b536937db67ac0d15') in 0.012664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/roadStraightSkew_NE.png
+  artifactKey: Guid(36d7376accc86ab429fbfc516b4472a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/roadStraightSkew_NE.png using Guid(36d7376accc86ab429fbfc516b4472a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eba6c78fd480be011c7faf3122aca5') in 0.014442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.178401 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/tent_NW.png
+  artifactKey: Guid(f7f638fb1276ad342a7770eb20897fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/tent_NW.png using Guid(f7f638fb1276ad342a7770eb20897fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac317866c8c3328aae9451adad5f84e3') in 0.015718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/tentClosedLong_NE.png
+  artifactKey: Guid(3aac188eb45a9794b8ad37b9816e99ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/tentClosedLong_NE.png using Guid(3aac188eb45a9794b8ad37b9816e99ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c73182fc44f31755adae81e3bd09c3') in 0.013096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/tentRoof_NE.png
+  artifactKey: Guid(2be0eef6b777efc4bace2511741321db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/tentRoof_NE.png using Guid(2be0eef6b777efc4bace2511741321db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e675f7350f4d4309c899ebe3a42016a8') in 0.012199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/tentRoof_SW.png
+  artifactKey: Guid(587df7b0102684b4bb5472403df74231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/tentRoof_SW.png using Guid(587df7b0102684b4bb5472403df74231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5260d8301a184125cda44da2071e3fea') in 0.012946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.248210 seconds.
+  path: Assets/Models/kenney_racingkit2/Isometric/treeLarge_NW.png
+  artifactKey: Guid(bffbcf7047589fa48a0fdd953adce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/kenney_racingkit2/Isometric/treeLarge_NW.png using Guid(bffbcf7047589fa48a0fdd953adce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9da981e47dcbe939226ed79f7189b5') in 0.013453 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
