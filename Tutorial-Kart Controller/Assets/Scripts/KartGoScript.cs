@@ -33,9 +33,9 @@ public class KartGoScript : MonoBehaviour
 
     private int coinCount;
     private int numLaps;
-    public TextMeshProUGUI coinCountText;
-    public TextMeshProUGUI lapCountText;
-    public TextMeshProUGUI timerText;
+    public TextMeshPro coinCountText;
+    public TextMeshPro lapCountText;
+    public TextMeshPro timerText;
     private float startEffectTime;
     private float timeNum;
     private int milliseconds;
@@ -149,14 +149,16 @@ public class KartGoScript : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             startEffectTime = Time.time;
-            MaxSpeed = MaxSpeed * 1.25f;
+            CurrentSpeed = CurrentSpeed * 1.5f;
             source.PlayOneShot(boostClip);
         }
         else if (other.gameObject.CompareTag("Bomb"))
         {
             other.gameObject.SetActive(false);
             startEffectTime = Time.time;
-            MaxSpeed = MaxSpeed * 0.5f;
+            CurrentSpeed = CurrentSpeed * 0.5f;
+            source.PlayOneShot(bombClip);
+            source.PlayOneShot(bombClip);
             source.PlayOneShot(bombClip);
         }
         else if (other.gameObject.CompareTag("FinishLine"))
@@ -190,11 +192,6 @@ public class KartGoScript : MonoBehaviour
         steerAmount = RealSpeed > 30 ? RealSpeed / 4 * steerDirection : steerAmount = RealSpeed / 1.5f * steerDirection;
         steerDirVect = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y + steerAmount, transform.eulerAngles.z);
         transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, steerDirVect, 3 * Time.deltaTime);
-
-        if (Time.time >= (startEffectTime + 5.0f))
-        {
-            MaxSpeed = originalMaxSpeed;
-        }
 
         if (timing)
         {

@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.tutorialitemsystem.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\marioKart-Testing\\Tutorial-Kart Controller\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "D:\\Student Work\\marioKart-Testing\\Tutorial-Kart Controller\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Tutorial-ItemSystem [Testing]"
