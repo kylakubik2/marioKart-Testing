@@ -35,13 +35,19 @@ public class KartGoScript : MonoBehaviour
     private int numLaps;
     public TextMeshProUGUI coinCountText;
     public TextMeshProUGUI lapCountText;
+    public TextMeshProUGUI timerText;
     private float startEffectTime;
+    private float timeNum;
+    private int milliseconds;
+    private int seconds;
+    private int minutes;
+    private bool timing;
 
     public AudioSource source;
     public AudioClip coinClip;
     public AudioClip boostClip;
     public AudioClip bombClip;
-
+    public AudioClip lastLap;
     public AudioClip cheer;
 
     void Start()
@@ -60,6 +66,8 @@ public class KartGoScript : MonoBehaviour
         coinCount = 0;
         numLaps = 0;
         originalMaxSpeed = MaxSpeed;
+        timeNum = 0.0f;
+        timing = false;
 
         SetCountText();
         SetLapText();
@@ -120,7 +128,11 @@ public class KartGoScript : MonoBehaviour
     }
     void SetLapText()
     {
-        lapCountText.text = "Lap: " + numLaps.ToString();
+        lapCountText.text = "Lap " + numLaps.ToString() + "/3";
+    }
+    void SetTimerText()
+    {
+        timerText.text = "Time: " + minutes.ToString("D2") + ":" + seconds.ToString("D2") + "." + milliseconds.ToString("D2");
     }
 
     private void OnTriggerEnter(Collider other)
@@ -149,7 +161,20 @@ public class KartGoScript : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("FinishLine"))
         {
-            numLaps = numLaps + 1;
+            timing = true;
+
+            if (numLaps < 3)
+            {
+                numLaps = numLaps + 1;
+                if (numLaps == 3)
+                {
+                    source.PlayOneShot(lastLap);
+                }
+            } 
+            else if (numLaps == 3)
+            {
+                source.PlayOneShot(cheer);
+            }
 
             SetLapText();
         }
@@ -170,5 +195,16 @@ public class KartGoScript : MonoBehaviour
         {
             MaxSpeed = originalMaxSpeed;
         }
+
+        if (timing)
+        {
+            timeNum += Time.deltaTime;
+        }
+        
+        minutes = (int)(timeNum / 60f) % 60;
+        seconds = (int)(timeNum % 60f);
+        milliseconds = (int)(timeNum * 1000f) % 1000;
+
+        SetTimerText();
     }
 }
